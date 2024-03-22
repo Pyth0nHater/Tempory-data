@@ -1,1 +1,1 @@
-This tool help u with tempory data
+This tool will help u with tempory data
