@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header{
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block_headers{
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
+  
+#enter_text{
+    margin-top:20px;
+}
+
+.protect_text{
+    padding: 12px 0 0 5px;
+    margin-left: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: 0px;
+    display: block;
+    position: absolute;
+    width: 426px;
+    height: 27px;
+    border-radius: 8px;
+    background: white;
+    color:  #707070;
+
+}
+
+#switch_connect{
+    margin-top: 0px;
+}
+
+#pass_input{
+    margin-top: 0px;
+    margin-left: 120px;
+    display: block;
+    position: absolute;
+    width: 420px;
+}
+
+#pass_input_connect{
+    margin-top: 0px;
+    margin-left: 128px;
+    display: block;
+    position: absolute;
+    width: 420px;
+}
+
+.connect_text{
+    margin-top: 0px;
+}
+
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  #toggle2{
+    margin-top: -15px;
+    background: aliceblue;
+  }
+  #toggle2::after{
+    background: #999999;
+  }
+  
+  .toggle {
+    margin-top: -15px;
+    margin-left: 190px;
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px;
+    height: 35px;
+    background: #999999;
+    display: inline-flex;
+    border-radius: 100px;
+    position: absolute;
+  }
+  
+  .toggle:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: aliceblue;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  .toggle:active:after {
+    width: 25px;
+  }
+  
+
+  .fileInputLabel {
+    padding: 10px 0 0 5px;
+    height: 30px;
+    width: 150px;
+    font-size: 17px;
+    border: none;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    margin-left: -360px;
+    display: inline-block;
+    color:  #707070;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+.send_button{
+    margin-top: 20px;
+}
+
+.guide_text{
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    height: 50px;
+    width: 98%;
+    margin-left: 0.5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-top: 30px;
+    background: #cecece;
+    border-radius: 5px;
+}
+
+.filename{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+  
+.createRoom{
+    color: #6e6e6e;
+    margin-top: 30px;
+    font-weight: 100;
+    text-align: center;
+    width: 50%;
+    background-color: aliceblue;
+}
+
+.createRoom:hover, .connectRoom:hover{
+    scale: 1.05;
+}
+
+.connectRoom{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    width: 50%;
+    background-color: #999999;
+}
+
+input{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    height: 40px;
+    width: 500px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 0 0 10px;
+}
+
+
+button{
+    margin-top:20px;
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.response{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    top:20px;
+    left: 80%;
+    position: absolute;
+    background-color: rgb(103, 103, 103);
+}
+
+.main{
+    margin-left: 1%;
+    width: 98%;
+    height: 450px;
+    display: inline-flex;
+}
+
+
